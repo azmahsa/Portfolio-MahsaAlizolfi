@@ -1,6 +1,11 @@
+//* component
+import Hero from "@/components/Hero";
+//* image
 import Image from "next/image";
 export default function Home() {
   return (
-   <main>Hello</main>
+   <main>
+    <Hero/>
+   </main>
   );
 }

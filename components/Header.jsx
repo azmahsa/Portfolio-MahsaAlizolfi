@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <header
-      className={`${
+      className={` xl:px-32 ${
         header
           ? "py-4 bg-white shadow-lg dark:bg-accent"
           : "py-6 dark:bg-transparent"
