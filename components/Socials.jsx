@@ -4,8 +4,9 @@ import {
   RiGithubFill,
   RiLinkedinFill,
   RiTelegramFill,
-  RiInstagramFill
+  RiInstagramFill,
 } from "react-icons/ri";
+import { MdEmail } from "react-icons/md";
 
 import Link from "next/link";
 
@@ -13,6 +14,11 @@ const icons = [
   {
     path: "https://linkedin.com/in/mahsa-ao-102625143",
     name: <RiLinkedinFill />,
+  },
+  {
+    path: "mailto:mahsa.alizolfii2@gmail.com",
+    name: <MdEmail />,
+   
   },
   {
     path: "https://github.com/azmahsa",
