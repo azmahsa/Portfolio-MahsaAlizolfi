@@ -3,7 +3,7 @@ import { MailIcon, HomeIcon, PhoneIcon } from "lucide-react";
 const Contact = () => {
   return (
     <section>
-      <div className=" container mx-auto">
+      <div className=" container mx-auto px-24">
         {/* text */}
         <div className=" grid xl:grid-cols-2 pt-12 xl:h-[480px] mb-6 xl:mb-24 ">
           <div className=" flex flex-col justify-center">
