@@ -40,7 +40,7 @@ const projectData = [
     name: "Kasuka website",
     description:
       "An example site that is completely designed with Html and Css.",
-    link: "https://zen-colden-m7yqv2wyn.liara.run/",
+    link: "https://frosty-chebyshev--whti-mkk.liara.run/",
     git: "https://github.com/azmahsa/HtmlCssWebsite.github.io.git",
   },
   {

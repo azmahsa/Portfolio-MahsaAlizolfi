@@ -57,7 +57,7 @@ const projectData = [
     name: "3D website ",
     description:
       "This app is built with React along with stunning animations, 3D elements.",
-    link: "/",
+    link: "https://3d-project-template-react.vercel.app/",
     git: "https://github.com/azmahsa/3D-Project-Template-React.git",
   },
   {
@@ -70,13 +70,13 @@ const projectData = [
     git: "https://github.com/azmahsa/Login-Page-Template.git",
   },
   {
-    image: "",
+    image: "/work/Project.jpg",
     category: "Next Js",
     name: "Mahsa Alizolfi Portfolio ",
     description:
       "This site designed using React, Vite JS, Tailwind  and other functional features such as aos and swiper.",
     link: "/",
-    git: "/",
+    git: "https://github.com/azmahsa/Portfolio-MahsaAlizolfi.git",
   },
   {
     image: "/work/Project-2.jpg",
@@ -93,7 +93,7 @@ const projectData = [
     name: "Kasuka website",
     description:
       "An example site that is completely designed with Html and Css.",
-    link: "https://zen-colden-m7yqv2wyn.liara.run/",
+    link: "https://frosty-chebyshev--whti-mkk.liara.run/",
     git: "https://github.com/azmahsa/HtmlCssWebsite.github.io.git",
   },
 ];
