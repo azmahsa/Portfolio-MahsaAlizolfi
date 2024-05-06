@@ -9,8 +9,8 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section className="py-12 xl:px-32 xl:py-20 h-[84vh] xl:pt-20 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none ">
-      <div className=" container mx-auto">
-        <div className="flex justify-between gap-x-8 ">
+      <div className=" container  mx-auto">
+        <div className="flex justify-between gap-x-24 ">
           {/* text */}
           <div className=" flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <div className=" text-xl font-semibold mb-4 text-primary tracking-[2px]">
@@ -39,8 +39,8 @@ const Hero = () => {
           </div>
           {/* image */}
           <div className="relative ">
-              <div className="hidden xl:flex xl:after:bg-[url('/hero/large-long.png')] dark:after:bg-[url('/hero/large-long2.png')] after:bg-contain after:block after:bg-no-repeat after:w-[500px] after:h-[500px] after:absolute after:top-[-50px]  xl:after:left-[-380px] before:bg-[url('/hero/small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[240px] before:h-[240px] before:absolute before:bottom-[-10px] before:right-[100px]">
-                <img src='/hero/developer.png' className="relative rounded-full z-10  right-40 m-auto xl:w-[380px] xl:h-[380px]" />
+              <div className="hidden xl:flex xl:after:bg-[url('/hero/large-long.png')] dark:after:bg-[url('/hero/large-long2.png')] after:bg-contain after:block after:bg-no-repeat after:w-[400px] after:h-[400px] after:absolute after:top-[-50px]  xl:after:left-[-380px] before:bg-[url('/hero/small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[200px] before:h-[200px] before:absolute before:bottom-[60px] before:right-[100px]">
+                <img src='/hero/developer.png' className="relative rounded-full z-10  right-40 m-auto xl:w-[300px] xl:h-[300px]" />
               </div>
             </div>
         </div>
