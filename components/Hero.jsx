@@ -27,11 +27,11 @@ const Hero = () => {
                   Contact me <Send size={18} />
                 </Button>
               </Link>
-              <a href="/public/about/Resume-Mahsaalizolfi.pdf"  download>
+              <Link href={(".../../public/about/Resume-Mahsaalizolfi.pdf")}   download>
               <Button size="default" variant="secondary" className="gap-x-2">
                 Download CV <Download size={18} />
               </Button>
-              </a>
+              </Link>
             </div>
             <Socials
               containerStyle="flex gap-x-6 mx-auto xl:mx-0"
@@ -40,8 +40,8 @@ const Hero = () => {
           </div>
           {/* image */}
           <div className="relative w-[350px] ">
-              <div className="hidden xl:flex xl:after:bg-[url('/hero/large-long.png')] dark:after:bg-[url('/hero/large-long2.png')] after:bg-contain after:block after:bg-no-repeat after:w-[500px] after:h-[500px] after:absolute after:top-[-50px]  xl:after:left-[-380px] before:bg-[url('/hero/small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[240px] before:h-[240px] before:absolute before:bottom-[-10px] before:right-[100px]">
-                <img src='/hero/developer.png' className="relative rounded-full z-10  right-40 m-auto xl:w-[350px] xl:h-[350px]" />
+              <div className="hidden xl:flex xl:after:bg-[url('../hero/large-long.png')] dark:after:bg-[url('/hero/large-long2.png')] after:bg-contain after:block after:bg-no-repeat after:w-[500px] after:h-[500px] after:absolute after:top-[-50px]  xl:after:left-[-380px] before:bg-[url('/hero/small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[240px] before:h-[240px] before:absolute before:bottom-[-10px] before:right-[100px]">
+                <img src='../hero/developer.png' className="relative rounded-full z-10  right-40 m-auto xl:w-[350px] xl:h-[350px]" />
               </div>
             </div>
         </div>

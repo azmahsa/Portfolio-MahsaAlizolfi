@@ -107,6 +107,15 @@ const projectData = [
     link: "/",
     git: "/",
   },
+  {
+    image: "/work/Project10.jpg",
+    category: "React Js",
+    name: "React-ReduxToolkit",
+    description:
+      "This site designed using React, Vite JS, Tailwind  and other functional features. and State Managment by ReduxTLK",
+    link: "/",
+    git: "/",
+  },
 ];
 
 const Work = () => {
@@ -140,7 +149,7 @@ const Work = () => {
             {/* show only the first 4 project for the slids */}
             {projectData.slice(0, 4).map((project, index) => {
               return (
-                <SwiperSlide  key={index}>
+                <SwiperSlide key={index}>
                   <ProjectCart project={project} />
                 </SwiperSlide>
               );

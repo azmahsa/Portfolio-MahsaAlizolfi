@@ -96,6 +96,15 @@ const projectData = [
     link: "https://frosty-chebyshev--whti-mkk.liara.run/",
     git: "https://github.com/azmahsa/HtmlCssWebsite.github.io.git",
   },
+  {
+    image: "/work/Project-10.jpg",
+    category: "React Js",
+    name: "React-ReduxToolkit",
+    description:
+      "This site designed using React, Vite JS, Tailwind  and other functional features. and State Managment by ReduxTLK",
+    link: "https://redux-toolkit-project-nu.vercel.app/",
+    git: "https://github.com/azmahsa/ReduxToolkitProject.git",
+  },
 ];
 
 const unqueCategories = [
